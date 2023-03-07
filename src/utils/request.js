@@ -4,7 +4,7 @@
 import axios from 'axios'
 
 const request = axios.create({
-    baseURL: 'http://ttapi.itheima.net/v1 0/'// 接口的基准路径
+    baseURL: 'http://toutiao.itheima.net'// 接口的基准路径
 })
 
 // 请求拦截器

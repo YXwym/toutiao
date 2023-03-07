@@ -22,8 +22,4 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-module.exports = {
-  dev: {
-    useEslint: false,
-  }
-}
+
